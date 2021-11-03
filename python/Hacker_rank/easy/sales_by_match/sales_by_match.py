@@ -11,15 +11,15 @@ import sys
 #
 # The function is expected to return an INTEGER.
 # The function accepts following parameters:
-#  1. INTEGER n
-#  2. INTEGER_ARRAY ar
+#  1. INTEGER n - Should be the size of the initial array
+#  2. INTEGER_ARRAY ar - Array of intergers that will contains "socks"
 #
 
 def sockMerchant(n, ar):
     '''
-    Count the amount of the elements in the list
-    and sum the result of the %2 division to get
-    the amount of pairs
+        Count the amount of the elements in the list
+        and sum the result of the %2 division to get
+        the amount of pairs
     '''    
     totalPairs = 0
     size = n 
